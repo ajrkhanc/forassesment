@@ -34,7 +34,7 @@ export default function Home() {
 
 
         var xhr = new XMLHttpRequest();
-        xhr.open('POST', 'http://localhost:3001/api/test/assform');
+        xhr.open('POST', 'https://assesmentresult.herokuapp.com/api/test/assform');
         xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
         xhr.send('q1=' + q1 +
             '&q2=' + q2 +
