@@ -4,7 +4,7 @@ import Image from 'next/image'
 
 
 export async function getServerSideProps() {
-    const res = await fetch('http://localhost:3000/api/fresult')
+    const res = await fetch('https://assesmentresult.herokuapp.com/api/fresult')
     const result = await res.json()
 
     
