@@ -908,4 +908,22 @@
 }
 
 #formreset{ padding-top: 20px;}
+
+.label-left{ float: left;}
+
+
+.label-right{float: right;}
+
+.result-bar-labels{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.assessment-result-block h3{
+  font-size: 29px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
    
